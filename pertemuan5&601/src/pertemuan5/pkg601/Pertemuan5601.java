@@ -15,6 +15,29 @@ public class Pertemuan5601 {
      */
     public static void main(String[] args) {
         // TODO code application logic here
+        manusia johan = new manusia("L");
+        johan.warnakulit="brown";
+        johan.SetWarnaRambut("hitam");
+        
+        manusia yani = new manusia ("P");
+        yani.warnakulit="white";
+        yani.SetWarnaRambut("pink");
+    }
+    
+}
+
+class manusia{
+    public String warnakulit="";
+    private String warnarambut="";
+    private String jeniskelamin="";
+    
+    public manusia(String jkel){
+        this.jeniskelamin = jkel;
+        
+}
+    public void SetWarnaRambut(String warna){
+        //menambahkan kode identitas
+        this.warnarambut = warna;
     }
     
 }
